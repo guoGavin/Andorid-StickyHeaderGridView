@@ -23,6 +23,17 @@ Andorid-StickyHeaderGridView
 ###-----挤压的样式：  
 ![挤压上面textview](http://1.valuesgithubimages.sinaapp.com/images/ss3.png)  
   
-        
   
   
+      public StickyGridAdapter(Context context, List<GridItem> list,
+			    GridView mGridView, ImageLoader imageLoader,
+		     	DisplayImageOptions options)   
+      传入options，imageLoader。记得cacheInMemory(true)，要缓存在内存里哦。不然可能会出现闪屏的现象。
+      
+      
+ImageScanner类用来获取手机上所有的图片信息，用ContentProvider来获取。  
+
+具体的代码可以load下来看。注释都已经添加好了。  
+  
+  
+分享给你的小伙伴吧。 - -   
