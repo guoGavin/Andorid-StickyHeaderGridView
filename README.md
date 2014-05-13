@@ -13,15 +13,15 @@ Andorid-StickyHeaderGridView
     
       
         
-        ##先看效果图：  
-        ###-----滑动过程中的样式：  
-          ![滑动中](http://1.valuesgithubimages.sinaapp.com/images/ss1.png)  
+##先看效果图：  
+###-----滑动过程中的样式：  
+![滑动中](http://1.valuesgithubimages.sinaapp.com/images/ss1.png)  
             
-         ###-----滑动后的样式：  
-          ![滑动后](http://1.valuesgithubimages.sinaapp.com/images/ss2.png)  
+###-----滑动后的样式：  
+![滑动后](http://1.valuesgithubimages.sinaapp.com/images/ss2.png)  
           
-           ###-----挤压的样式：  
-          ![挤压上面textview](http://1.valuesgithubimages.sinaapp.com/images/ss3.png)  
+###-----挤压的样式：  
+![挤压上面textview](http://1.valuesgithubimages.sinaapp.com/images/ss3.png)  
   
         
   
