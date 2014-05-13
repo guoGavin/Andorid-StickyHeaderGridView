@@ -15,6 +15,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
 import com.tonicartos.widget.stickygridheaders.StickyGridHeadersSimpleAdapter;
 
 public class StickyGridAdapter extends BaseAdapter implements
@@ -43,7 +45,7 @@ public class StickyGridAdapter extends BaseAdapter implements
 				Log.v("onScrollStateChanged", "onScrollStateChanged");
 				if (scrollState == OnScrollListener.SCROLL_STATE_IDLE) {
 					isScrollStop = true;
-					/** ´Ë´¦ÇëÒ»¶¨¼ÇµÃÒª¸üÐÂ£¬²»È»Í¼Æ¬¾ÍÃ»ÓÐÁËÅ¶¡£¡£¡£ - - **/
+					/** ï¿½Ë´ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Çµï¿½Òªï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½È»Í¼Æ¬ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - - **/
 					notifyDataSetChanged();
 				} else {
 					isScrollStop = false;
@@ -97,7 +99,7 @@ public class StickyGridAdapter extends BaseAdapter implements
 		Log.v("isScroll", isScrollStop + "");
 		imageView.setTag(path);
 		/**
-		 * ´Ë´¦ÉèÖÃÄ¬ÈÏµÄ¼ÓÔØÍ¼Æ¬»¹ÓÐµãÎÊÌâ¡£ÕýÔÚ½â¾öÖÐ¡£¡£¡£
+		 * ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ÏµÄ¼ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½â¡£ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 		imageView.setImageResource(R.drawable.ic_launcher);
 		imageView.setBackgroundDrawable(new BitmapDrawable());
